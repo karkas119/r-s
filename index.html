@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My page</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+<div class="container-fluid">
+
+    <div class="row">
+        <div id="first" class="first-page">
+            <div class="first_page_name after">
+                <h1>RUSTEM SYNIUKOV</h1>
+            </div>
+            <img id="line" src="img/line-title.png" alt="not found">
+            <div class="first_page_title">
+                <p>Front-end developer</p>
+            </div>
+            <div class="first_page_logo">
+                <a href=""></a>
+            </div>
+
+            <ul class="menu_main">
+                <li><a href="#first">Main page</a></li>
+                <li><a href="#second">About me</a></li>
+                <li><a href="#third">Portfolio</a></li>
+                <li><a href="#fourth">Contacts</a></li>
+            </ul>
+
+            <a href="#second" class="pointer">V</a>
+        </div>
+
+        <div id="second" class="second_page">
+            <div class="second_page_photo">
+                <img src="img/photo1.png" alt="not found">
+            </div>
+            <div class="second_page_photo_small">
+                <img src="img/small-photo.png" alt="not found">
+            </div>
+            <div class="second_page_text">
+                <p>Hello! My name is <span>Rustem</span> and I'm glad to see you on my page. It was created to show
+                    what I already know in web-development and what it's necessary to learn.</p>
+                <p>To tell the truth I started to explore such features of IT-industry as  <span>html, CSS, JS</span> recently and now I’m really understand how many things I should find out in future.</p>
+                <p id="small_screen">But no man is an island and I’m totally agree with this proverb. That’s why I have an aim to become a part of <span>friendly and prospective team</span>
+                    where I can use my current skills and get new with a support of experienced colleagues.</p>
+                <p>In <span><a href="#third">"Portfolio"</a></span> link you can check examples of my home-tasks which were made up during my courses.</p>
+            </div>
+
+
+        </div>
+
+        <div id="third" class="third_page">
+
+            <div id="big" class="fotorama"
+                 data-loop="true"
+                 data-keyboard="true"
+                 data-transition="crossfade"
+                 data-clicktransition="crossfade">
+                <img src="img/slide0.png" alt="not found">
+                <img src="img/slide1.png" alt="not found">
+                <img src="img/slide2.png" alt="not found">
+                <img src="img/slide3.png" alt="not found">
+                <img src="img/slide4.png" alt="not found">
+                <img src="img/slide5.png" alt="not found">
+                <img src="img/slide6.png" alt="not found">
+            </div>
+
+            <div id="small" class="fotorama"
+                 data-loop="true">
+                <img src="img/small0.png" alt="not found">
+                <img src="img/small1.png" alt="not found">
+                <img src="img/small2.png" alt="not found">
+                <img src="img/small3.png" alt="not found">
+                <img src="img/small4.png" alt="not found">
+                <img src="img/small5.png" alt="not found">
+                <img src="img/small6.png" alt="not found">
+            </div>
+
+        </div>
+
+        <div id="fourth" class="contacts">
+            <h1>LET'S HAVE A TALK</h1>
+            <p class="write">call</p>
+            <span>+38(066)950-15-32</span>
+            <p class="write">or mail</p>
+            <span><a href="mailto:karkas119@gmail.com">karkas119@gmail.com</a></span>
+        </div>
+
+
+    </div>
+
+</div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128025722-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128025722-1');
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+
+</body>
+</html>
